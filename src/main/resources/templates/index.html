@@ -66,27 +66,27 @@
                     <li>
                         <a href="#home">Home</a>
                         <ul>
-                            <li><a href="index.html">Onepage</a></li>
+                            <li><a href="index.html" th:if="${false}">Onepage</a></li>
                             <li><a href="/home-2.html" th:if="${false}">Multipage</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#services">Serviços</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">Sobre mim</a>
                     </li>
-                    <li>
+                    <li th:if="${false}">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
+                    <li th:if="${false}">
                         <a href="#blog">Blog</a>
                     </li>
-                    <li>
+                    <li th:if="${false}">
                         <a href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Contatos</a>
                     </li>
                     <li th:if="${false}">
                         <a href="#home">Versions</a>
@@ -101,7 +101,7 @@
                     </li>
                 </ul>
             </div>
-            <p class="mil-soft">© 2025 All rights reserved.</p>
+            <p class="mil-soft">© 2025 Todos os direitos reservados.</p>
         </div>
         <!-- sidebar end -->
 
@@ -116,9 +116,9 @@
                         <div class="col-xl-6">
                             <div class="mil-banner-text">
                                 <p class="mil-suptitle mil-fs16 mil-mb50">Social media <span class="mil-accent">and</span> Storytelling</p>
-                                <h1 class="mil-fs90 mil-upper mil-mb40"><span class="mil-text-bg">Hello I<span class="mil-accent">’</span>m</span> <span class="mil-text-bg"><span class="mil-accent"><br>Gabriela</span> Moraes</span></h1>
-                                <p class="mil-fs16 mil-shortened mil-soft mil-mb60">I believe that collaboration and creativity are the cornerstones of progress, and I am dedicated to bringing a fresh perspective to every project I undertake.</p>
-                                <div class="mil-c-gone"><a href="#" class="mil-btn mil-btn-border">Explore my work</a></div>
+                                <h1 class="mil-fs90 mil-upper mil-mb40"><span class="mil-text-bg">Oie, Sou</span> <span class="mil-text-bg"><br><span>a </span><span class="mil-accent">Gabi</span><br>Moraes<span class="mil-accent">!</span></span></h1>
+                                <p class="mil-fs16 mil-shortened mil-soft mil-mb60">Para mim, criatividade e parceria caminham juntas. Cada projeto é uma nova chance de contar histórias que inspiram, conectam e geram resultados.</p>
+                                <div class="mil-c-gone" th:if="${false}"><a href="#" class="mil-btn mil-btn-border">Explore my work</a></div>
                             </div>
                         </div>
                         <div class="col-xl-6">
@@ -134,21 +134,21 @@
                 <div class="mil-container mil-p-0-30" id="services">
                     <div class="row">
                         <div class="col-lg-8 mil-mb90">
-                            <h2 class="mil-fs24 mil-mb30 mil-up">Services</h2>
-                            <p class="mil-fs18 mil-up">From crafting <span class="mil-accent">visually captivating</span> designs to developing seamless and responsive websites, I ensure a holistic digital presence.</p>
+                            <h2 class="mil-fs24 mil-mb30 mil-up">Serviços</h2>
+                            <p class="mil-fs18 mil-up">Todo mundo tem uma <span class="mil-accent">história pra contar</span> — e eu te ajudo a fazer isso do seu jeito, com verdade, estratégia e criatividade. Conheça os serviços que podem dar vida nova à sua comunicação!</p>
                         </div>
                         <div class="col-12">
                             <div class="mil-service-item mil-mb60">
                                 <div class="mil-icon-part mil-mb30">
                                     <img src="/img/icons/1.svg" alt="icon" class="mil-up">
-                                    <h3 class="mil-fs20 mil-up">Design</h3>
+                                    <h3 class="mil-fs20 mil-up">Social Media</h3>
                                 </div>
                                 <div class="mil-text-part">
-                                    <p class="mil-fs16 mil-soft mil-mb30 mil-up">Immersed in the vibrant world of creativity, I specialize in designing visually striking and user-centric digital experiences.</p>
+                                    <p class="mil-fs16 mil-soft mil-mb30 mil-up">Criação de estratégias personalizadas para redes sociais, com foco em engajamento, posicionamento de marca e conexão real com o público. Do planejamento ao conteúdo, tudo pensado com propósito.</p>
                                     <ul class="mil-fs16">
-                                        <li class="mil-up">Web User Interface</li>
-                                        <li class="mil-up">Marketing and Branding</li>
-                                        <li class="mil-up">Animation 3D</li>
+                                        <li class="mil-up">Planejamento estratégico de conteúdo</li>
+                                        <li class="mil-up">Gestão de redes sociais</li>
+                                        <li class="mil-up">Relatórios e análise de performance</li>
                                     </ul>
                                 </div>
                             </div>
@@ -156,14 +156,14 @@
                             <div class="mil-service-item mil-mb60">
                                 <div class="mil-icon-part mil-mb30">
                                     <img src="/img/icons/2.svg" alt="icon" class="mil-up">
-                                    <h3 class="mil-fs20 mil-up">Develop</h3>
+                                    <h3 class="mil-fs20 mil-up">Storytelling</h3>
                                 </div>
                                 <div class="mil-text-part">
-                                    <p class="mil-fs16 mil-soft mil-mb30 mil-up">As a seasoned developer, I translate design concepts into functional and responsive websites that go beyond aesthetics.</p>
+                                    <p class="mil-fs16 mil-soft mil-mb30 mil-up">Transformo ideias, vivências e valores em narrativas autênticas que geram identificação. Porque toda marca tem uma história — e ela merece ser bem contada.</p>
                                     <ul class="mil-fs16">
-                                        <li class="mil-up">HTML, CSS and Javascript</li>
-                                        <li class="mil-up">CMS WordPress</li>
-                                        <li class="mil-up">Webflow</li>
+                                        <li class="mil-up">Construção de narrativas para marcas e perfis pessoais</li>
+                                        <li class="mil-up">Roteiros para vídeos, podcasts e apresentações</li>
+                                        <li class="mil-up">Storytelling para lançamentos e campanhas</li>
                                     </ul>
                                 </div>
                             </div>
@@ -171,19 +171,19 @@
                             <div class="mil-service-item mil-mb60">
                                 <div class="mil-icon-part mil-mb30">
                                     <img src="/img/icons/3.svg" alt="icon" class="mil-up">
-                                    <h3 class="mil-fs20 mil-up">Write</h3>
+                                    <h3 class="mil-fs20 mil-up">Consultoria</h3>
                                 </div>
                                 <div class="mil-text-part">
-                                    <p class="mil-fs16 mil-soft mil-mb30 mil-up">Crafting engaging and engaging content is at the core of my services. I understand the power of words to convey history.</p>
+                                    <p class="mil-fs16 mil-soft mil-mb30 mil-up">Orientações personalizadas para quem quer entender melhor o universo digital e aplicar estratégias eficientes por conta própria, com autonomia e clareza.</p>
                                     <ul class="mil-fs16">
-                                        <li class="mil-up">Blogs</li>
-                                        <li class="mil-up">Magazines</li>
-                                        <li class="mil-up">Guides and Manuals</li>
+                                        <li class="mil-up">Análise de presença digital</li>
+                                        <li class="mil-up">Direcionamento estratégico para redes sociais</li>
+                                        <li class="mil-up">Mentoria para criação de conteúdo com propósito</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="mil-divider mil-mb60 mil-up"></div>
-                            <div class="mil-service-item mil-mb60">
+                            <div class="mil-divider mil-mb60 mil-up" th:if="${false}"></div>
+                            <div class="mil-service-item mil-mb60" th:if="${false}">
                                 <div class="mil-icon-part mil-mb30">
                                     <img src="/img/icons/4.svg" alt="icon" class="mil-up">
                                     <h3 class="mil-fs20 mil-up">Promote</h3>
@@ -206,8 +206,8 @@
                 <div class="mil-container" id="about">
                     <div class="row">
                         <div class="col-lg-8 col-xl-6 mil-mb90">
-                            <h2 class="mil-fs24 mil-mb30 mil-up">About</h2>
-                            <p class="mil-fs18 mil-up">Hello there! I'm <span class="mil-accent">Gabriela Moraes</span>, a native New Yorker driven by innovation and a passion for creative expression.</p>
+                            <h2 class="mil-fs24 mil-mb30 mil-up">Sobre mim</h2>
+                            <p class="mil-fs18 mil-up">Olá! Eu sou a <span class="mil-accent">Gabriela Moraes</span>, brasileira de Recife e residente em Lisboa. Sou especialista em social media e storytelling, e ajudo pessoas e marcas a se comunicarem com mais intenção, clareza e emoção.</p>
                         </div>
                     </div>
                 </div>
@@ -230,14 +230,14 @@
                                     <p class="mil-fs16 mil-soft mil-up">gabriela@gabrielamoraes.digital</p>
                                 </li>
                                 <li>
-                                    <h6 class="mil-fs16 mil-mb10 mil-up">Role</h6>
+                                    <h6 class="mil-fs16 mil-mb10 mil-up">Especialidade</h6>
                                     <p class="mil-fs16 mil-soft mil-up">Social Media and Storytelling</p>
                                 </li>
                                 <li>
-                                    <h6 class="mil-fs16 mil-mb10 mil-up">Phone</h6>
+                                    <h6 class="mil-fs16 mil-mb10 mil-up">Telemóvel</h6>
                                     <p class="mil-fs16 mil-soft mil-up">(+351) 963 927 952</p>
                                 </li>
-                                <li>
+                                <li th:if="${false}">
                                     <h6 class="mil-fs16 mil-mb10 mil-up">Get in Touch</h6>
                                     <div class="mil-up mil-c-gone"><a href="#." class="mil-text-link mil-fs16">Download CV</a></div>
                                 </li>
@@ -262,7 +262,7 @@
                 <!-- about end -->
 
                 <!-- portfolio -->
-                <div class="mil-container" id="portfolio">
+                <div class="mil-container" id="portfolio" th:if="${false}">
                     <div class="row">
                         <div class="col-lg-8 mil-mb90">
                             <h2 class="mil-fs24 mil-mb30 mil-up">Portfolio</h2>
@@ -270,7 +270,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mil-container-out mil-p-0-90">
+                <div class="mil-container-out mil-p-0-90" th:if="${false}">
                     <div class="swiper-container mil-portfolio-slider mil-up mil-c-swipe mil-c-light">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -304,7 +304,7 @@
                 <!-- portfolio end -->
 
                 <!-- blog -->
-                <div class="mil-container mil-p-0-90" id="blog">
+                <div class="mil-container mil-p-0-90" id="blog" th:if="${false}">
                     <div class="row">
                         <div class="col-lg-8 col-xl-6 mil-mb90">
                             <h2 class="mil-fs24 mil-mb30 mil-up">Blog</h2>
@@ -382,7 +382,7 @@
                 <!-- blog end -->
 
                 <!-- skills -->
-                <div class="mil-container mil-p-0-90" id="skills">
+                <div class="mil-container mil-p-0-90" id="skills" th:if="${false}">
                     <div class="row">
                         <div class="col-xl-8 mil-mb90">
                             <h2 class="mil-fs24 mil-mb30 mil-up">Skills</h2>
@@ -473,30 +473,30 @@
                 <div class="mil-container" id="contact">
                     <div class="row">
                         <div class="col-xl-8 mil-mb60">
-                            <h2 class="mil-fs24 mil-mb30 mil-up">Contact</h2>
-                            <p class="mil-fs18 mil-up">I believe that <span class="mil-accent">collaboration and creativity</span> are the cornerstones of progress, and I am dedicated to bringing a fresh perspective.</p>
+                            <h2 class="mil-fs24 mil-mb30 mil-up">Contatos</h2>
+                            <p class="mil-fs18 mil-up">Acredito que <span class="mil-accent">colaboração e criatividade</span> são os pilares do progresso e me dedico a trazer uma nova perspectiva.</p>
                         </div>
                     </div>
                     <div class="mil-divider mil-mb60 mil-up"></div>
                     <div class="row mil-mb30">
                         <div class="col-md-4 mil-mb60">
                             <h6 class="mil-fs16 mil-mb10 mil-up">Email</h6>
-                            <p class="mil-fs16 mil-soft mil-up">josiew@mydomain.com</p>
+                            <p class="mil-fs16 mil-soft mil-up">gabriela@gabrielamoraes.digital</p>
                         </div>
                         <div class="col-md-4 mil-mb60">
-                            <h6 class="mil-fs16 mil-mb10 mil-up">Address</h6>
-                            <p class="mil-fs16 mil-soft mil-up">New York 11210, USA</p>
+                            <h6 class="mil-fs16 mil-mb10 mil-up">Endereço</h6>
+                            <p class="mil-fs16 mil-soft mil-up">Lisboa, Portugal</p>
                         </div>
                         <div class="col-md-4 mil-mb60">
-                            <h6 class="mil-fs16 mil-mb10 mil-up">Phone</h6>
-                            <p class="mil-fs16 mil-soft mil-up">(300) 300 40 30</p>
+                            <h6 class="mil-fs16 mil-mb10 mil-up">Telemóvel</h6>
+                            <p class="mil-fs16 mil-soft mil-up">(+351) 963 927 952</p>
                         </div>
                     </div>
                 </div>
                 <div class="mil-container-out">
                     <div class="mil-about-banner">
                         <div class="mil-image-frame mil-up">
-                            <img src="/img/3.jpg" alt="banner" class="mil-scale-img" data-value-1="1" data-value-2="1.25">
+                            <img src="/img/lisboa2.jpg" alt="banner" class="mil-scale-img" data-value-1="1" data-value-2="1.25">
                         </div>
                     </div>
                 </div>
@@ -504,17 +504,17 @@
                     <form>
                         <div class="row">
                             <div class="col-md-6 mil-mb60">
-                                <input type="text" placeholder="What's your name">
+                                <input type="text" placeholder="Seu nome">
                             </div>
                             <div class="col-md-6 mil-mb60">
-                                <input type="text" placeholder="Your email">
+                                <input type="text" placeholder="e-mail">
                             </div>
                             <div class="col-lg-12 mil-mb60">
-                                <textarea rows="10" placeholder="Tell us about our project"></textarea>
+                                <textarea rows="10" placeholder="Fale-me mais sobre nosso projeto"></textarea>
                             </div>
                             <div class="mil-jcb mil-aic">
-                                <p class="mil-fs14 mil-soft" style="padding-right: 15px;">* We promise not to disclose your personal information to third parties.</p>
-                                <div class="mil-c-gone"><button type="submit" class="mil-btn" disabled>Send message</button></div>
+                                <p class="mil-fs14 mil-soft" style="padding-right: 15px;">* Prometo não divulgar suas informações pessoais a terceiros.</p>
+                                <div class="mil-c-gone"><button type="submit" class="mil-btn" disabled>Enviar mensagem</button></div>
                             </div>
                         </div>
                     </form>
