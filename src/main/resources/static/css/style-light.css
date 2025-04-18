@@ -288,7 +288,7 @@ h6,
 }
 
 .mil-accent {
-  color: #d63384;
+  color: #c2b27d;
 }
 
 .mil-upper {
@@ -305,14 +305,14 @@ h6,
 }
 
 .mil-text-link {
-  color: #d63384;
+  color: #c2b27d;
   position: relative;
 }
 .mil-text-link:before {
   content: "";
   width: 0;
   height: 1px;
-  background-color: #d63384;
+  background-color: #c2b27d;
   position: absolute;
   bottom: 2px;
   -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
@@ -336,7 +336,7 @@ a {
 
 blockquote {
   padding: 30px 60px;
-  border-left: solid 2px #d63384;
+  border-left: solid 2px #c2b27d;
 }
 
 /* -------------------------------------------
@@ -445,7 +445,7 @@ cursor
           transition-delay: 0s;
 }
 .mil-cursor-follower.mil-light-active, .mil-cursor-follower.mil-dark-active, .mil-cursor-follower.mil-gone-active, .mil-cursor-follower.mil-view-active, .mil-cursor-follower.mil-next-active, .mil-cursor-follower.mil-read-active, .mil-cursor-follower.mil-swipe-active {
-  background-color: #d63384;
+  background-color: #c2b27d;
   -webkit-transform: scale(3);
           transform: scale(3);
   -webkit-filter: drop-shadow(0px 2px 4px rgba(29, 29, 29, 0.1));
@@ -523,7 +523,7 @@ scrollbar
   background-color: #F7F7F7;
 }
 .mil-progress-track .mil-progress {
-  background-color: #d63384;
+  background-color: #c2b27d;
   height: 0;
   width: 5px;
   border-radius: 4px;
@@ -608,9 +608,9 @@ pagination
           transform: scale(1.03);
 }
 .mil-pagination a.mil-active {
-  border: solid 1px #d63384;
+  border: solid 1px #c2b27d;
   color: #FFFFFF;
-  background-color: #d63384;
+  background-color: #c2b27d;
   pointer-events: none;
 }
 .mil-pagination a.mil-pag-arrow {
@@ -678,10 +678,10 @@ filter
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-filter li a:hover {
-  color: #d63384;
+  color: #c2b27d;
 }
 .mil-filter li a.mil-active {
-  color: #d63384;
+  color: #c2b27d;
 }
 @media (max-width: 550px) {
   .mil-filter li:after {
@@ -758,7 +758,7 @@ form input::placeholder, form textarea::placeholder {
 }
 form input:focus, form textarea:focus {
   outline: inherit;
-  border-bottom: solid 1px #d63384;
+  border-bottom: solid 1px #c2b27d;
 }
 form input:focus::-webkit-input-placeholder, form textarea:focus::-webkit-input-placeholder {
   color: rgba(115, 115, 115, 0.3);
@@ -791,7 +791,7 @@ buttons
   padding: 0 40px;
   height: 60px;
   font-family: "Kanit", sans-serif;
-  background-color: #d63384;
+  background-color: #c2b27d;
   color: #FFFFFF;
   text-decoration: none;
   display: -webkit-inline-box;
@@ -819,7 +819,7 @@ buttons
   color: #1D1D1D;
 }
 .mil-btn.mil-btn-soft {
-  background-color: #d63384;
+  background-color: #c2b27d;
   color: #1D1D1D;
 }
 .mil-btn.mil-btn-link {
@@ -828,7 +828,7 @@ buttons
   color: #FFFFFF;
 }
 .mil-btn.mil-btn-link.mil-accent {
-  color: #d63384;
+  color: #c2b27d;
 }
 .mil-btn i {
   margin-left: 10px;
@@ -950,7 +950,7 @@ preloader
   height: 100%;
 }
 .mil-preloader .mil-load {
-  background-color: #d63384;
+  background-color: #c2b27d;
   height: 4px;
   position: absolute;
   top: 0;
@@ -991,7 +991,7 @@ top panel
   font-family: "Unbounded", sans-serif;
   font-weight: 400;
   font-size: 40px;
-  background-color: #d63384;
+  background-color: #c2b27d;
   color: #FFFFFF;
 }
 @media (max-width: 992px) {
@@ -1208,7 +1208,7 @@ menu
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-main-menu li a:hover {
-  color: #d63384;
+  color: #c2b27d;
   padding-left: 5px;
 }
 .mil-main-menu li ul {
@@ -1241,7 +1241,7 @@ menu
   color: #737373;
 }
 .mil-main-menu li:hover {
-  color: #d63384;
+  color: #c2b27d;
 }
 .mil-main-menu li:hover ul {
   max-height: 150px;
@@ -1391,7 +1391,7 @@ about
 ------------------------------------------- */
 .mil-sign {
   font-family: "Sacramento", cursive;
-  color: #d63384;
+  color: #c2b27d;
   font-size: 100px;
   position: absolute;
   top: -80px;
@@ -1429,7 +1429,7 @@ about
 }
 
 .mil-contact-info {
-  border-top: solid 4px #d63384;
+  border-top: solid 4px #c2b27d;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1478,7 +1478,7 @@ portfolio
   position: absolute;
   top: 40%;
   left: calc(50% + 2.5vw);
-  background-color: #d63384;
+  background-color: #c2b27d;
   height: 5vw;
   width: 100%;
   display: -webkit-box;
@@ -1561,7 +1561,7 @@ blog
   position: absolute;
   top: 40%;
   left: calc(50% + 2.5vw);
-  background-color: #d63384;
+  background-color: #c2b27d;
   height: 5vw;
   width: 100%;
   display: -webkit-box;
@@ -1667,7 +1667,7 @@ blog
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: #d63384;
+  background-color: #c2b27d;
   margin: 0 10px;
 }
 .mil-pub-info li:last-child:after {
@@ -1679,7 +1679,7 @@ blog
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-pub-info li a:hover {
-  color: #d63384;
+  color: #c2b27d;
 }
 
 /* -------------------------------------------
@@ -1694,14 +1694,14 @@ skills
 .mil-prog-track .mil-prog {
   position: relative;
   height: 100%;
-  background-color: #d63384;
+  background-color: #c2b27d;
 }
 .mil-prog-track .mil-prog:before {
   content: attr(data-number);
   position: absolute;
   top: -30px;
   right: 21px;
-  background-color: #d63384;
+  background-color: #c2b27d;
   color: #FFFFFF;
   height: 30px;
   padding: 0 5px 0 10px;
@@ -1722,7 +1722,7 @@ skills
   position: absolute;
   top: -30px;
   right: 0;
-  background-color: #d63384;
+  background-color: #c2b27d;
   color: #FFFFFF;
   height: 30px;
   padding: 0 10px 0 0;
@@ -1790,7 +1790,7 @@ experience
 .mil-error {
   font-family: "Sacramento", cursive;
   font-size: calc(1rem + 5vw);
-  color: #d63384;
+  color: #c2b27d;
   margin-left: 15px;
   line-height: 50%;
 }
